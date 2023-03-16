@@ -1,11 +1,15 @@
 import java.util.Scanner;
+/*Bài 1: (Toán tử)
+Nhập vào 2 số bất kỳ từ bàn phím và thực hiện các yêu cầu sau:
+1. Tính tổng, hiệu, tích, thương, chia lấy dư của 2 số đó.
+2. Sử dụng các toán tử so sánh đã học để so sánh 2 số đó */
 public class Bai1 {
     public static void main(String[] args) throws Exception {
-Scanner sc = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 System.out.print("nhap vao so thu nhat");
-double num1 = sc.nextDouble();
+double num1 = scanner.nextDouble();
 System.out.print("nhap vao so thu hai");
-double num2 = sc.nextDouble();
+double num2 = scanner.nextDouble();
 double tong = num1+num2;
 double hieu = num1-num2;
 double tich = num1*num2;

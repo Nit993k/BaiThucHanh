@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*Bài 4: (switch –case)
+Viết chương trình nhập vào một số nguyên từ 1 - 12 từ bàn phím và hiển thị ra tháng tương ứng với số đó 
+(nhập vào số 1 thì sẽ hiển thị ra là "Tháng 1“).
+ */
 public class Bai4 {
     public static void main(String[] args) throws Exception {
 Scanner sc = new Scanner(System.in);
